@@ -1,0 +1,11 @@
+User-agent: Yandex
+
+Host: www.polymer-torg.com
+
+User-agent: Googlebot
+
+User-agent: *
+Crawl-delay: 30
+
+
+Sitemap: http://www.polymer-torg.com/sitemap.xml

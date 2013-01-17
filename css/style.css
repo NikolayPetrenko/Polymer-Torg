@@ -1,0 +1,320 @@
+/* 
+    Document   : style
+    Created on : 18.05.2012, 20:52:35
+    Author     : Marianne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html, body, div, span, h1, h2, p, img, a, li, ul {
+    border: 0 none;
+    font-style: normal;
+    font-weight: normal;
+    list-style: circle outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10pt;
+     
+}
+html {background:#FFFFFF; height: 100%;}
+html body{height:100%;}
+html body{
+    height:100%;
+}
+
+
+body {
+margin:0px auto;
+position:relative;
+}
+
+a{
+   color: #003985;
+}
+
+a:hover{
+    color: #398500;
+}
+
+#header{
+    height: 75px;
+    background: url('../images/header.jpg') repeat-x;
+   
+}
+#home{
+    float: left;
+    margin: 40px 0 0 10px;
+}
+
+#nav{
+    float: right;
+    margin: 30px 10px 0;
+   padding: 10px;
+}
+
+#home, #nav span{
+        margin-right: 10px;
+}
+
+
+#nav a, #home a{
+    font-size: 12pt;
+    color: #fff;
+
+ }
+
+ #nav a:hover{
+    color: #398500;
+ }
+ 
+ #login{
+     margin-right: 20px; 
+ }
+ 
+ #login_form{
+    background-color: #96cdea;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    position: absolute;
+    display: block;
+    right: 35px;
+     display: none;
+     z-index: 100;
+   
+}
+  
+#banners {
+  
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #banners li{
+    display: inline-block;
+    width: 185px;
+ } 
+ 
+ 
+.banner{
+    margin: 5px;
+}
+
+#content{
+   bottom: 50px;
+
+}
+
+#left{
+    width: 20%;
+    min-width: 200px;
+    max-width: 400px;
+    height: auto;
+    float: left;
+    margin: 25px 10px;
+}
+
+#left ul {
+    list-style-type: circle !important;
+    padding-left: 20px;
+}
+
+#container{
+    width: 60%;
+    height: auto;
+    float: left;
+    background-color: #56abdc;
+    margin-top: 25px;
+    padding: 20px;
+    min-height: 500px;
+    margin-bottom: 10px;
+}
+
+.ad{
+    margin: 10px;
+    padding:10px 10px 10px 20px;
+    background-color: #fff;
+}
+#right{
+    margin-top: 20px;
+    width: 15%;
+    min-width: 150px;
+    max-width: 400px;
+    height: auto;
+    float: left;
+}
+ #right_banners li{
+     border: 1px solid #398500;
+     margin: 5px;
+ }
+ 
+
+#title{
+    margin: 10px;
+    
+}
+
+#title div{
+    background-color: #C8E3B3;
+    font-size: 12px;
+    color: #003985;
+    padding: 5px;
+}
+
+#footer{
+    height: 50px;
+    width: 100%;
+    background: url('../images/footer.jpg') repeat-x;
+    position: absolute !important;
+    
+}
+
+#main_container{
+    padding-bottom: 50px;
+}
+
+.clear{
+    clear: left;
+}
+
+
+h1{
+    color: white;
+    font-size: 24px;
+
+}
+h2{
+   color: #398500;
+   font-size: 12pt;
+   text-transform: capitalize!important;
+   margin-top: 20px;
+}
+
+#left h2{
+   color: #000;
+}
+h3{
+   color: #003985;
+   font-size: 10pt;
+  
+}
+h4{
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    
+}
+h5{
+   color: #850039;
+   font-size: 10pt;
+   text-transform: capitalize!important; 
+   margin: 1px;
+}
+
+.success{
+    color: white;
+}
+
+.error{
+    color: red;
+}
+
+.success, .error{
+    margin: 5px;
+}
+
+.big{
+    font-size: 14pt;
+}
+
+.ad_date{
+   color: #A6446E;
+   font-size: 9pt;
+}
+
+/*form Мои данные*/
+
+#nick_name{
+   margin-left: 51px; 
+   width: 200px;
+}
+
+#user_email{
+   margin-left: 98px; 
+   width: 200px;
+}
+
+#user_name{
+   margin-left: 101px;  
+   width: 200px;
+}
+
+#user_phone{
+   margin-left: 10px;
+   width: 200px;
+}
+
+/*end of form*/
+
+.listing_date{
+    width: 75px;
+}
+
+.search-form #search{
+    width: 110px;
+}
+
+.copyright {
+    color: white;
+    padding-top: 22px;
+    padding-left: 483px;
+}
+
+.top {
+    position: absolute;
+    padding-left: 676px;
+}
+
+.premium {
+    background-color: #FFFACC;
+}
+
+.number {
+    margin-bottom: 2px;
+}
+
+.ajax-window {
+    cursor: pointer;
+/*    display: block;*/
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+/*    position: absolute;*/
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+    z-index: 8010;
+    background: black;
+}
+
+.ajax-load {
+    width: 50px;
+    margin: 364px auto;
+}
+
+.big-text {
+    font-size: 11.6pt;
+}
+.counter {
+    padding-right: 3px;
+    width: 93px;
+    padding-top: 10px;
+    float: right;
+}
